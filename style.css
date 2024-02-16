@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;  
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -67,7 +68,7 @@ img {
 
 button {
     background: #3882F6;
-    border-radius: 12px;
+    border-radius: 8px;
     width: 120px;
     height: 32px;
     font-size: 15px;
@@ -119,8 +120,49 @@ button {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7E5EB;
+    padding: 150px;
+    gap: 10px;
+}
 
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    /* text-align: justify; */
+}
 
+.reference {
+    font-size: 24px;
+    align-self: flex-end;
+    font-weight: 500;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.coa-container {
+    flex: 1; 
+    padding: 150px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.coa-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
 
 
